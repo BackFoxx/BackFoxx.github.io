@@ -39,4 +39,4 @@ import문을 괄호에 넣지 않고 하나하나 분리해서 작성해 보았�
 
 ![캡처4](https://raw.githubusercontent.com/BackFoxx/BackFoxx.github.io/master/_image/%EC%BA%A1%EC%B2%984.JPG)
 
-해결되었습니다. 젠장!
+해결되었습니다. 
