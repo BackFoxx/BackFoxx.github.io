@@ -25,4 +25,8 @@ backendHost를 반환하도록 작성해 두었는데 사용되지 않았다 한
 
 '${backendHost}' => \`${backendHost}\`로 바꿔주면 된다.
 
+<<<<<<< Updated upstream
 ' 와 `의 차이라니..
+=======
+' 와 `의 차이라니..ㅜ
+>>>>>>> Stashed changes
