@@ -87,6 +87,90 @@ categories:
 
    ![ORM1](https://raw.githubusercontent.com/BackFoxx/BackFoxx.github.io/master/_image/ORM1.png)
 
+   **모델링**: 건물 설계도를 실제 건물로 지어 올리는 것을 모델링이라 하듯
+
+   추상적인 것을 실존하는 것으로 바꾸는 것을 모델링이라 한다.
+
+   &nbsp;
+
+   데이터가 담긴 **Table**이 있고 **Java** 가 있을 때
+
+   Java에서 Table에 데이터를 요청(INSERT, DELETE, UPD9ATE)할 수 있고
+
+   Table에서 Java에 데이터를 요청(SELECT)할 수 있는데,
+
+   **Java와 Table은 서로의 언어를 이해하지 못한다.**
+
+   &nbsp;
+
+   그래서 **둘 사이에 Class을 넣어**
+
+   **서로가 이해할 수 있는 언어로 모델링(변환)하는 작업을 거친다.**
+
+   ![ORM2](https://raw.githubusercontent.com/BackFoxx/BackFoxx.github.io/master/_image/ORM2.png)
+
+   모델링 Class와 Table 사이에는 순서가 있는데
+
+   (1)Table을 먼저 만든 후 (2)Class를 만드는 방법이 있고,
+
+   &nbsp;
+
+   **(1)Class를 JPA의 형태로 만들면**
+
+   **(2)프로그램 실행시 Table이 자동으로 생성되게 하는 방법이 있는데**
+
+   **이 방식을 ORM이라고 한다.**
+
+   &nbsp;
+
 3. JPA는 반복적인 CRUD 작업을 생략하게 해준다.
+
+   ![ORM3](https://raw.githubusercontent.com/BackFoxx/BackFoxx.github.io/master/_image/ORM3.png)
+
+   **CRUD**: Create, Read, Update, Delete, 
+
+   자바와 DB간에서 가장 많이 사용되는 작업이다.
+
+   &nbsp;
+
+   자바에서 데이터를 가져올 때
+
+   (1) 자바에서 DB로 커넥션을 요청하면
+
+   (2) DB에서 세션을 오픈한다.
+
+   (3) 이루 자바에서 쿼리를 전송하면
+
+   (4) DB에서 원하는 데이터를 반환한다.
+
+   (5) 그럼 자바에서 자바의 언어로 읽을 수 있도록 데이터를 가공한다.
+
+   (6) 이후 DB에서 세션을 끊고
+
+   (7) 자바에서 커넥션을 끊는데
+
+   이 일련의 과정은 모두 단순한 반복작업이다.
+
+   &nbsp;
+
+   위 과정을 데이터를 불러올 때마다 작성해야 한다면 매우 고통스러운데,
+
+   JPA를 사용하면
+
+   위 일련의 CRUD 과정을 함수 하나로 축약할 수 있다.
+
+   &nbsp;
+
+   정리하면 
+
+   ORM을 사용하면
+
+   **(1) 프로그램을 실행하면 자동으로 DB Table을 만들어 주고**
+
+   **(2) DB와 상호작용하는 데에 쓰이는 일련의 과정을 함수 하나로 대신해주는**
+
+   매우 중요한 귀찮음 해결사이다.
+
+   &nbsp;
 
 4. JPA는 영속성 컨텍스트를 가지고 있다.
