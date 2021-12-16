@@ -7,7 +7,7 @@ categories:
 
 ## JPA
 
-![캡처](C:\Users\jojja\Desktop\코딩공부\프로젝트 필기\캡처.JPG)
+![캡처](https://github.com/BackFoxx/BackFoxx.github.io/blob/master/_image/%EC%BA%A1%EC%B2%98.JPG?raw=true)
 
 출처: 유튜브 메타코딩 
 
@@ -19,7 +19,7 @@ categories:
 
 1. JPA는 Java Persistence API 이다.
 
-   ![JPA](C:\Users\jojja\Desktop\코딩공부\프로젝트 필기\JPA.png)
+   ![JPA](https://github.com/BackFoxx/BackFoxx.github.io/blob/master/_image/JPA.png?raw=true)
 
    **Persistence**: 영구성, 영원함
 
