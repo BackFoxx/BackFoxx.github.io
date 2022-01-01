@@ -2,7 +2,7 @@
 layout: single
 title: "JPA 개념 정리"
 categories:
--Java
+- Java
 ---
 
 ## JPA
