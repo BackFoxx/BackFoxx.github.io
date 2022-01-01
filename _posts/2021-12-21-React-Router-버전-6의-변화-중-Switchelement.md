@@ -2,7 +2,7 @@
 layout: single
 title: "React Router 버전 6의 변화 중 Switch, element"
 categories:
--Frontend
+- Frontend
 ---
 
 ## 문제 상황
