@@ -2,7 +2,7 @@
 layout: single
 title: "버튼의 값을 State에 할당하는 방법"
 categories:
--javascript
+- javascript
 ---
 
 참고: 
